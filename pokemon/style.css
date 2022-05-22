@@ -122,7 +122,7 @@ a {
   transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
 }
 .card-title {
-  color: black;
+  color: rgb(5, 1, 47);
   position: absolute;
   top: 10%;
   right: 10px;
