@@ -80,6 +80,14 @@ a {
   display: inline-flex;
   color: var(--cor-jogo);
 }
+/*em capa do jogo esta a propriedade para mesclar imagem e texto na mesma linha*/
+#capa_do_jogo {
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  max-width: 300px;
+}
 .cards {
   perspective: 500px;
   display: inline-flex;
@@ -99,16 +107,16 @@ a {
   transition: transform 0.5s;
 }
 #magus {
-  background: url(/imagens/magus.gif) center no-repeat;
+  background: url(/chrono/imagens/magus.gif) center no-repeat;
 }
 #lucca {
-  background: url(/imagens/mns.gif) center no-repeat;
+  background: url(/chrono/imagens/mns.gif) center no-repeat;
 }
 #froag {
-  background: url(/imagens/froag.gif) center no-repeat;
+  background: url(/chrono/imagens/froag.gif) center no-repeat;
 }
 #chrono {
-  background: url(/imagens/chrono.gif) center no-repeat;
+  background: url(/chrono/imagens/chrono.gif) center no-repeat;
 }
 .card:hover {
   transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
