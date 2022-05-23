@@ -71,19 +71,28 @@ a {
 }*/
 
 /* em capa do jogo esta a propriedade de mesclar imagem e texto na mesma linha*/
-#capa_do_jogo {
+
+#videogames {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: var(--cor-jogo);
+}
+.swhitch {
   float: left;
   border: transparent thin solid;
   padding: 5px;
   margin: 0px 10px 10px 0;
   max-width: 400px;
 }
-#videogames {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
+.link_compra {
+  color: var(--cor-jogo);
+  font-size: 30px;
+  border-width: 20px;
+  background-color: rgb(0, 13, 128);
+  border-radius: 10px;
+  margin: 0 250px;
 }
-
 @media (max-width: 600px) {
   #menu {
     display: block;
