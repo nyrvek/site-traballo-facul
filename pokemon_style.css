@@ -92,8 +92,9 @@ a {
 .cards {
   perspective: 500px;
   display: inline-flex;
-  margin-left: 260px;
-  align-items: center;
+  margin-left: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -190,5 +191,8 @@ a {
   #nav_menu.active #icone_hamburguer::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+  .cards {
+    margin-left: 0px;
   }
 }

@@ -79,6 +79,7 @@ a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: inline-flex;
   color: var(--cor-jogo);
+  text-align: center;
 }
 /*em capa do jogo esta a propriedade para mesclar imagem e texto na mesma linha*/
 #capa_do_jogo {
@@ -92,6 +93,8 @@ a {
   perspective: 500px;
   display: inline-flex;
   margin-left: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -190,5 +193,8 @@ a {
   #nav_menu.active #icone_hamburguer::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+  .cards {
+    margin-left: -10px;
   }
 }
